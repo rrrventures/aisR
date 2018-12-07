@@ -2,7 +2,7 @@
 % Please edit documentation in R/funciones.R
 \name{train_test_split}
 \alias{train_test_split}
-\title{Generacion muestras de desarrollo y validacion}
+\title{tran_test_split}
 \usage{
 train_test_split(base, porc_val = 0.1, seed = 2017)
 }
@@ -14,7 +14,7 @@ train_test_split(base, porc_val = 0.1, seed = 2017)
 \item{seed}{semilla para que sea replicable la division}
 }
 \description{
-Separa aleatoriamento una base en dos
+Separa aleatoriamento una base en entrenamiento y validacion
 }
 \keyword{split}
 \keyword{test}

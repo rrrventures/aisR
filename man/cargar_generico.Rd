@@ -2,7 +2,7 @@
 % Please edit documentation in R/funciones.R
 \name{cargar_generico}
 \alias{cargar_generico}
-\title{Carga de archivos RData}
+\title{cargar_generico}
 \usage{
 cargar_generico(archivo)
 }

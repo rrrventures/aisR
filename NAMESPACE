@@ -3,6 +3,7 @@
 export(cargar_generico)
 export(completar_faltantes)
 export(guardar_variables_modelo)
+export(iniciar_proyecto)
 export(onehot_transform)
 export(train_test_split)
 export(transform2Dummy)

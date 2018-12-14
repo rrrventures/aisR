@@ -188,8 +188,8 @@ iniciar_proyecto <- function(PATH = NULL, nombre = NULL, autor = NULL){
 
   template <- template_inicio
   template[3] <- paste0("# Autor(es)   : (c) ", autor, " ", Sys.time())
-  template[17] <- paste0("script <- paste('[", nombre, "] ", "01_Inicio Proyecto.R')")
-  template[25] <- paste0("PATH <- ", "'", PATH , "'")
+  template[55] <- paste0("script <- paste('[", nombre, "] ", "01_Inicio Proyecto.R')")
+  template[14] <- paste0("PATH <- ", "'", PATH , "'")
   writeLines(template, con = paste0(SYNTAXDIR, "000_inicioProyecto.R"))
 
   cat("Proyecto ", nombre, "iniciado en ", PATH, "\n")
